@@ -1,0 +1,18 @@
+/*
+* @Author: Aaayang
+* @Date:   2017-09-03 22:18:54
+* @Last Modified by:   Aaayang
+* @Last Modified time: 2017-09-03 22:28:28
+*/
+.root{
+    color: #fff;
+    background-color: #333;
+    transform: translate3d(-100%, 0, 0);
+    animation: move 1.5s ease-in-out forwards;
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
